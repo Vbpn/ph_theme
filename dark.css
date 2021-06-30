@@ -108,16 +108,19 @@
 --black:	black;		/*Чёрный*/
 --tumble:	#ee3d96;	/*Тамбл*/
 }
+
 .text{max-width: 60em}
 .block{background:none !important;padding:0 !important}
-.information-block{padding:0 !important; background: none !important;font-size:0.75rem !important}
+
 
 @media (max-width: 768px){
+.information-block{padding:0 !important; background: none !important;}
 .comment-wrapper .comment-wrapper {padding-left:1vw !important}
 .topic-content>img{max-height:200px !important}
-.stream-item{margin:1rem .5rem !important;padding:0 !important;line-height: 1 !important;}
-.stream-topic{margin:0 !important;max-width:22em !important;}
-.stream-author{float:right;font-size:.75rem !important;}
-.sidebar .block:first-child{display:none !important}
+.stream-item{margin:1rem .5rem !important;padding:0 !important;line-height: 1.2 !important;}
+.stream-topic{margin:0 !important;}
+.stream-author{font-size:.75rem !important;}
 .topic-header .topic-title {font-size:1.2rem !important}
+.news-birthday-list{padding:0 1rem}
+.block-header{margin: 1rem 0 !important}
 }
