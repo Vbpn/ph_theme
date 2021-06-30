@@ -8,7 +8,7 @@
 --icons-topic:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/topic-icons-dark.svg);
 --icons-toolbar:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-dark.svg);
 --icons-social:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/social-dark.svg);
---icons-comments:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/comment-icons-dark.svg);
+--icons-comments:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/comment-icons-dark-heart.svg);
 --icons-editor:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/editor-dark.svg);
 --icon-message:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/message-dark.svg);
 --toolbar-update:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-update.svg);
@@ -30,7 +30,7 @@
 --href-err:	#727a90;	/*Цвет ссылок на 404*/
 --href-err-h:	#f00;		/*Цвет ссылок на 404 при наведении*/
 --contain:	#21282c;	/*Главный контейнер*/
---head-start:	rgba(0,0,0,0.7);	/*Верхняя панель*/
+--head-start:	rgba(0,0,0,0.7);/*Верхняя панель*/
 --head-end:	#30404c;	/*Верхняя панель*/
 --headers:	#171e22;	/*Заголовки таблиц и некоторые элементы*/
 --counter:	orangered;	/*Индикатор новых писем*/
@@ -41,7 +41,7 @@
 --el-red:	#992900;	/*Неактивный элемент предупреждающий*/
 --el-h-red:	#ff7f50;	/*Активный элемент предупреждающий, :hover*/
 --el-shad:	#999;		/*Неактивный элемент затенённый*/
---panel:	#040404;	/*Панели*/
+--panel:	#2b3a44;	/*Панели*/
 --window:	#171e22;	/*Окна*/
 --input:	#2f3e46;	/*Фон окон ввода*/
 --input-border:	#3e6477;	/*Границы окон ввода*/
@@ -103,14 +103,13 @@
 --sys-err:	#a65d42;	/*Системная ошибка*/
 --sys-err-t:	white;		/*Системное ошибка текст*/
 --horizontal:	#2d3746;	/*Разделитель*/
---night:	#C3CCD5;	/*Текущая ночь*/
+--night:	#c3ccd5;	/*Текущая ночь*/
 --white:	white;		/*Белый*/
 --black:	black;		/*Чёрный*/
 --tumble:	#ee3d96;	/*Тамбл*/
 }
-
 .text{max-width: 60em}
-.block{background:none !important;padding:0 !important}
+
 
 
 @media (max-width: 768px){
