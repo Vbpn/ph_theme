@@ -1,0 +1,123 @@
+@import "../css/prettify-dark.css";
+:root {
+--logo:			url(https://ponyhawks.ru/templates/skin/synio/css/svg/ph.svg);
+--header-back:		url(https://ponyhawks.ru/templates/skin/synio/css/images/back_1.png);
+--icons-user:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/user-menu-icons-dark.svg);
+--icon-stream:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/stream.svg);
+--icons-contacts:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/icons-contact-dark.svg);
+--icons-topic:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/topic-icons-dark.svg);
+--icons-toolbar:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-dark.svg);
+--icons-social:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/social-dark.svg);
+--icons-comments:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/comment-icons-dark.svg);
+--icons-editor:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/editor-dark.svg);
+--icon-message:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/message-dark.svg);
+--toolbar-update:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-update.svg);
+--talk-icons:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/talk-dark.svg);
+--loader:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/loader.svg);
+--user:			url(https://ponyhawks.ru/templates/skin/synio/css/svg/user.svg);
+
+--brdr-rad5:	5px;		/*Сглаживание краёв 5*/
+--brdr-rad3:	3px;		/*Сглаживание краёв 3*/
+
+--main-bg:	#141b20;	/*Основной фон*/
+--overlay:	#00000080;	/*Оверлей*/
+--text:		#81a0b7;	/*Основной цвет текста*/
+--text-gray:	#7b848d;	/*Дополнительный цвет текста*/
+--text-time:	#3e5c6f;	/*Время в блоке прямого эфира*/
+--text-fav:	#ffffff;	/*Цифра избранноего*/
+--href:		#6aa9df;	/*Цвет ссылок*/
+--href-hover:	coral;		/*Цвет ссылок при наведении*/
+--href-err:	#727a90;	/*Цвет ссылок на 404*/
+--href-err-h:	#f00;		/*Цвет ссылок на 404 при наведении*/
+--contain:	#21282c;	/*Главный контейнер*/
+--head-start:	rgba(0,0,0,0.7);	/*Верхняя панель*/
+--head-end:	#30404c;	/*Верхняя панель*/
+--headers:	#171e22;	/*Заголовки таблиц и некоторые элементы*/
+--counter:	orangered;	/*Индикатор новых писем*/
+--counter-c:	#72f281;	/*Индикатор новых комментариев*/
+--element:	#1b599b;	/*Неактивный элемент*/
+--el-hover:	#007bff;	/*Активный элемент, :hover*/
+--el-active:	#003e80;	/*Активный элемент, :active*/
+--el-red:	#992900;	/*Неактивный элемент предупреждающий*/
+--el-h-red:	#ff7f50;	/*Активный элемент предупреждающий, :hover*/
+--el-shad:	#999;		/*Неактивный элемент затенённый*/
+--panel:	#040404;	/*Панели*/
+--window:	#171e22;	/*Окна*/
+--input:	#2f3e46;	/*Фон окон ввода*/
+--input-border:	#3e6477;	/*Границы окон ввода*/
+--input-focus:	#57bceb;	/*Подсветка полей ввода*/
+--input-text:	#81a0b7;	/*Текст полей ввода*/
+--quote:	#3c5667;	/*Цитата*/
+--quote-bd:	#6892ab;	/*Границы цитаты*/
+--pre:		#434343;	/*Код*/
+--pre-border:	#606365;	/*Границы кода*/
+--spoiler:	#28343b;	/*Спойлер*/
+--spoiler-bd:	#161c20;	/*Границы спойлера*/
+--sp-gray:	#51748b;	/*Lite-спойлер*/
+--dice-b:	lightblue;	/*Дайсы*/
+--dice-g:	lightgreen;	/*Дайсы*/
+--dice-r:	lightcoral;	/*Дайсы*/
+--tb-odd:	#233649;	/*Нечётная строка таблицы*/
+--tb-even:	#2a4159;	/*Чётная строка таблицы*/
+--tb-first:	#171e22;	/*Первая строка таблицы*/
+--tb-hover:	#13222c;	/*Активная строка таблицы*/
+--btn:		#888;		/*Обычная кнопка*/
+--btn-hover:	#bbb;		/*Обычная кнопка активная*/
+--btn-shad:	#000000;	/*Тень обычной кнопки*/
+--b-h-shad:	#fff;		/*Тень обычной кнопки активная*/
+--btn-act:	#444;		/*Обычная кнопка нажатая*/
+--btn-act-t:	#8fa7b8;	/*Текст обычной кнопки нажатой*/
+--btn-bl:	#1b599b;	/*Основная кнопка*/
+--btn-bl-hover:	#007bff;	/*Основная кнопка активная*/
+--btn-bl-act:	#003e80;	/*Основная кнопка нажатая*/
+--btn-bl-t:	white;		/*Текст основной кнопки*/
+--btn-bl-act-t:	#8fa7b8;	/*Текст основной кнопки нажатой*/
+--btn-text:	#00000088;	/*Внутренняя тень текста любой кнопки*/
+--poll-res:	#1781da;	/*Полоса результата опроса*/
+--poll-most:	#1999e2;	/*Большая полоса результа опроса*/
+--poll-most-t:	#12aaeb;	/*Больший процент опроса*/
+--notif-notice:	#007bff;	/*Уведомление*/
+--notif-error:	coral;		/*Уведомление об ошибке*/
+--notif-text:	white;		/*Текст уведомления*/
+--com-pre:	#171e22;	/*Комментарий предпросмотр фон*/
+--com-pre-bd:	black;		/*Комментарий предпросмотр граница*/
+--com-ign:	#171e22;	/*Комментарий игнорируемый фон*/
+--com-ign-bd:	black;		/*Комментарий игнорируемый фон*/
+--com-ign-t:	#777;		/*Комментарий игнорируемый текст*/
+--com-con:	#141b20;	/*Комментарий фон*/
+--com-con-bd:	#091015;	/*Комментарий граница*/
+--com-del:	#17242b;	/*Комментарий удалённый фон*/
+--com-del-bd:	#29363d;	/*Комментарий удалённый граница*/
+--com-self:	#1b252b;	/*Комментарий свой фон*/
+--com-self-bd:	#091015;	/*Комментарий свой граница*/
+--com-new:	#2c3f4b;	/*Комментарий новый фон*/
+--com-new-bd:	#527387;	/*Комментарий новый граница*/
+--com-cur:	#3c5667;	/*Комментарий текущий фон*/
+--com-cur-bd:	#6892ab;	/*Комментарий текущий граница*/
+--com-hid:	#17242b;	/*Комментарий скрытый фон*/
+--com-hid-bd:	#29363d;	/*Комментарий скрытый граница*/
+--toolbar:	#3e6477;	/*Обновлялка*/
+--toolbar-c:	#1a9fdb;	/*Обновлялка число комментов*/
+--sys-mes:	#4e8a4e;	/*Системное сообщение, при сохранении настроек, например*/
+--sys-mes-t:	white;		/*Системное сообщение текст*/
+--sys-err:	#a65d42;	/*Системная ошибка*/
+--sys-err-t:	white;		/*Системное ошибка текст*/
+--horizontal:	#2d3746;	/*Разделитель*/
+--night:	#C3CCD5;	/*Текущая ночь*/
+--white:	white;		/*Белый*/
+--black:	black;		/*Чёрный*/
+--tumble:	#ee3d96;	/*Тамбл*/
+}
+.text{max-width: 60em}
+.block{background:none !important;padding:0 !important}
+.information-block{padding:0 !important; background: none !important;font-size:0.75rem !important}
+
+@media (max-width: 768px){
+.comment-wrapper .comment-wrapper {padding-left:1vw !important}
+.topic-content>img{max-height:200px !important}
+.stream-item{margin:1rem .5rem !important;padding:0 !important;line-height: 1 !important;}
+.stream-topic{margin:0 !important;max-width:22em !important;}
+.stream-author{float:right;font-size:.75rem !important;}
+.sidebar .block:first-child{display:none !important}
+.topic-header .topic-title {font-size:1.2rem !important}
+}
