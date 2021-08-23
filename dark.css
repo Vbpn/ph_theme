@@ -35,7 +35,7 @@
 --href-hover:	#fff;	/*Цвет ссылок при наведении*/
 --href-err:	#727a90;	/*Цвет ссылок на 404*/
 --href-err-h:	#f90;		/*Цвет ссылок на 404 при наведении*/
---contain:	#101010;	/*Главный контейнер*/
+--contain:	#262626;	/*Главный контейнер*/
 --head-start:	#1b1b1b;	/*Верхняя панель*/
 --head-end:	#1b1b1b;	/*Верхняя панель*/
 --headers:	#1b1b1b;	/*Заголовки таблиц и некоторые элементы*/
@@ -45,7 +45,7 @@
 --el-hover:	#fff;	/*Активный элемент, :hover*/
 --el-active:	#003e80;	/*Активный элемент, :active*/
 --el-red:	#992900;	/*Неактивный элемент предупреждающий*/
---el-h-red:	#ff7f50;	/*Активный элемент предупреждающий, :hover*/
+--el-h-red:	#fff;	/*Активный элемент предупреждающий, :hover*/
 --el-shad:	#999;		/*Неактивный элемент затенённый*/
 --panel:	#191919;	/*Панели*/
 --window:	#252525;	/*Окна*/
@@ -76,7 +76,7 @@
 --btn-bl:	#eee;	/*Основная кнопка*/
 --btn-bl-hover:	#fff;	/*Основная кнопка активная*/
 --btn-bl-act:	#2b2b2b;	/*Основная кнопка нажатая*/
---btn-bl-t:	#323232;		/*Текст основной кнопки*/
+--btn-bl-t:	#2f2f2f;		/*Текст основной кнопки*/
 --btn-bl-act-t:	#8fa7b8;	/*Текст основной кнопки нажатой*/
 --btn-text:	#00000088;	/*Внутренняя тень текста любой кнопки*/
 --poll-res:	#ffffff;	/*Полоса результата опроса*/
@@ -88,13 +88,13 @@
 --com-ign:	#171e22;	/*Комментарий игнорируемый фон*/
 --com-ign-bd:	black;		/*Комментарий игнорируемый фон*/
 --com-ign-t:	#777;		/*Комментарий игнорируемый текст*/
---com-con:	#1b1b1b;	/*Комментарий фон*/
+--com-con:	#2f2f2f;	/*Комментарий фон*/
 --com-con-bd:	#000000;	/*Комментарий граница*/
 --com-del:	#17242b;	/*Комментарий удалённый фон*/
 --com-del-bd:	#29363d;	/*Комментарий удалённый граница*/
 --com-self:	#202020;	/*Комментарий свой фон*/
 --com-self-bd:	#000000;	/*Комментарий свой граница*/
---com-new:	#363636;	/*Комментарий новый фон*/
+--com-new:	#161616;	/*Комментарий новый фон*/
 --com-new-bd:	#161616;	/*Комментарий новый граница*/
 --com-cur:	#363636;	/*Комментарий текущий фон*/
 --com-cur-bd:	#606060;	/*Комментарий текущий граница*/
@@ -112,12 +112,13 @@
 --black:	black;		/*Чёрный*/
 --tumble:	#eee;	/*Тамбл*/
 }
-.text{max-width: 60em}
 
-
+body a{text-decoration:underline}
 .comment-content{border:0 !important; padding:.5rem !important}
+.button{text-shadow:none !important;padding: 5px 18px 5px 18px !important; margin: 4px 10px 4px 0 !important;}
+.spoiler-title{font-weight:normal !important}
 
-@media (max-width: 768px){
+@media (max-width: 1200px){
 body{line-height: 1.5em !important;}
 .information-block{padding:0 !important; background: none !important;}
 .comment-wrapper .comment-wrapper {padding-left:1vw !important}
@@ -130,6 +131,6 @@ body{line-height: 1.5em !important;}
 .block-header{margin: 1rem 0 !important}
 
 /*txt editor*/
-markItUpHeader ul li {margin: 5px 20px 5px 10px !important;}
+.markItUpHeader ul li {margin: 5px 20px 5px 10px !important;}
 
 }
