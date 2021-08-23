@@ -1,118 +1,124 @@
 @import "../css/prettify-dark.css";
+.header-menu a:first-child { width: 145px !important; }
+@media (max-width: 768px){
+.main-menu-trigger { background-image: var(--logo-mobile) !important; }
+}
 :root {
---logo:			url(https://ponyhawks.ru/templates/skin/synio/css/svg/ph.svg);
---header-back:		url(https://ponyhawks.ru/templates/skin/synio/css/images/back_1.png);
+--font:			open-sans, sans-serif;
+--logo:			url(https://ponyhawks.ru/templates/skin/synio/css/svg/pron.svg);
+--logo-mobile:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/pron-mobile.svg);
+--header-back:		url(https://ponyhawks.ru/templates/skin/synio/css/images/back_10.png);
 --icons-user:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/user-menu-icons-dark.svg);
---icon-stream:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/stream.svg);
+--icon-stream:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/stream-pron.svg);
 --icons-contacts:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/icons-contact-dark.svg);
 --icons-topic:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/topic-icons-dark.svg);
---icons-toolbar:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-dark.svg);
+--icons-toolbar:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-pron.svg);
 --icons-social:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/social-dark.svg);
---icons-comments:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/comment-icons-dark-heart.svg);
+--icons-comments:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/comment-icons-pron.svg);
 --icons-editor:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/editor-dark.svg);
 --icon-message:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/message-dark.svg);
---toolbar-update:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-update.svg);
+--toolbar-update:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-update-pron.svg);
 --talk-icons:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/talk-dark.svg);
---loader:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/loader.svg);
+--loader:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/loader-pron.svg);
 --user:			url(https://ponyhawks.ru/templates/skin/synio/css/svg/user.svg);
 
 --brdr-rad5:	5px;		/*Сглаживание краёв 5*/
 --brdr-rad3:	3px;		/*Сглаживание краёв 3*/
 
---main-bg:	#141b20;	/*Основной фон*/
+--main-bg:	#101010;	/*Основной фон*/
 --overlay:	#00000080;	/*Оверлей*/
---text:		#81a0b7;	/*Основной цвет текста*/
+--text:		#ddd;	/*Основной цвет текста*/
 --text-gray:	#7b848d;	/*Дополнительный цвет текста*/
---text-time:	#3e5c6f;	/*Время в блоке прямого эфира*/
+--text-time:	#464646;	/*Время в блоке прямого эфира*/
 --text-fav:	#ffffff;	/*Цифра избранноего*/
---href:		#6aa9df;	/*Цвет ссылок*/
---href-hover:	coral;		/*Цвет ссылок при наведении*/
+--href:		#fafafa;	/*Цвет ссылок*/
+--href-hover:	#fff;	/*Цвет ссылок при наведении*/
 --href-err:	#727a90;	/*Цвет ссылок на 404*/
---href-err-h:	#f00;		/*Цвет ссылок на 404 при наведении*/
---contain:	#21282c;	/*Главный контейнер*/
---head-start:	rgba(0,0,0,0.7);/*Верхняя панель*/
---head-end:	#30404c;	/*Верхняя панель*/
---headers:	#171e22;	/*Заголовки таблиц и некоторые элементы*/
---counter:	orangered;	/*Индикатор новых писем*/
+--href-err-h:	#f90;		/*Цвет ссылок на 404 при наведении*/
+--contain:	#101010;	/*Главный контейнер*/
+--head-start:	#1b1b1b;	/*Верхняя панель*/
+--head-end:	#1b1b1b;	/*Верхняя панель*/
+--headers:	#1b1b1b;	/*Заголовки таблиц и некоторые элементы*/
+--counter:	#fff;	/*Индикатор новых писем*/
 --counter-c:	#72f281;	/*Индикатор новых комментариев*/
---element:	#1b599b;	/*Неактивный элемент*/
---el-hover:	#007bff;	/*Активный элемент, :hover*/
+--element:	#191919;	/*Неактивный элемент*/
+--el-hover:	#fff;	/*Активный элемент, :hover*/
 --el-active:	#003e80;	/*Активный элемент, :active*/
 --el-red:	#992900;	/*Неактивный элемент предупреждающий*/
 --el-h-red:	#ff7f50;	/*Активный элемент предупреждающий, :hover*/
 --el-shad:	#999;		/*Неактивный элемент затенённый*/
---panel:	#2b3a44;	/*Панели*/
---window:	#171e22;	/*Окна*/
---input:	#2f3e46;	/*Фон окон ввода*/
---input-border:	#3e6477;	/*Границы окон ввода*/
---input-focus:	#57bceb;	/*Подсветка полей ввода*/
---input-text:	#81a0b7;	/*Текст полей ввода*/
---quote:	#3c5667;	/*Цитата*/
---quote-bd:	#6892ab;	/*Границы цитаты*/
+--panel:	#191919;	/*Панели*/
+--window:	#252525;	/*Окна*/
+--input:	#363636;	/*Фон окон ввода*/
+--input-border:	#262626;	/*Границы окон ввода*/
+--input-focus:	#606060;	/*Подсветка полей ввода*/
+--input-text:	#cacaca;	/*Текст полей ввода*/
+--quote:	#363636;	/*Цитата*/
+--quote-bd:	#707070;	/*Границы цитаты*/
 --pre:		#434343;	/*Код*/
---pre-border:	#606365;	/*Границы кода*/
---spoiler:	#28343b;	/*Спойлер*/
---spoiler-bd:	#161c20;	/*Границы спойлера*/
---sp-gray:	#51748b;	/*Lite-спойлер*/
+--pre-border:	#666;	/*Границы кода*/
+--spoiler:	#252525;	/*Спойлер*/
+--spoiler-bd:	#1b1b1b;	/*Границы спойлера*/
+--sp-gray:	#575757;	/*Lite-спойлер*/
 --dice-b:	lightblue;	/*Дайсы*/
 --dice-g:	lightgreen;	/*Дайсы*/
 --dice-r:	lightcoral;	/*Дайсы*/
---tb-odd:	#233649;	/*Нечётная строка таблицы*/
---tb-even:	#2a4159;	/*Чётная строка таблицы*/
---tb-first:	#171e22;	/*Первая строка таблицы*/
---tb-hover:	#13222c;	/*Активная строка таблицы*/
+--tb-odd:	#252525;	/*Нечётная строка таблицы*/
+--tb-even:	#363636;	/*Чётная строка таблицы*/
+--tb-first:	#1b1b1b;	/*Первая строка таблицы*/
+--tb-hover:	#191919;	/*Активная строка таблицы*/
 --btn:		#888;		/*Обычная кнопка*/
 --btn-hover:	#bbb;		/*Обычная кнопка активная*/
 --btn-shad:	#000000;	/*Тень обычной кнопки*/
 --b-h-shad:	#fff;		/*Тень обычной кнопки активная*/
 --btn-act:	#444;		/*Обычная кнопка нажатая*/
 --btn-act-t:	#8fa7b8;	/*Текст обычной кнопки нажатой*/
---btn-bl:	#1b599b;	/*Основная кнопка*/
---btn-bl-hover:	#007bff;	/*Основная кнопка активная*/
---btn-bl-act:	#003e80;	/*Основная кнопка нажатая*/
---btn-bl-t:	white;		/*Текст основной кнопки*/
+--btn-bl:	#eee;	/*Основная кнопка*/
+--btn-bl-hover:	#fff;	/*Основная кнопка активная*/
+--btn-bl-act:	#2b2b2b;	/*Основная кнопка нажатая*/
+--btn-bl-t:	#323232;		/*Текст основной кнопки*/
 --btn-bl-act-t:	#8fa7b8;	/*Текст основной кнопки нажатой*/
 --btn-text:	#00000088;	/*Внутренняя тень текста любой кнопки*/
---poll-res:	#1781da;	/*Полоса результата опроса*/
---poll-most:	#1999e2;	/*Большая полоса результа опроса*/
---poll-most-t:	#12aaeb;	/*Больший процент опроса*/
---notif-notice:	#007bff;	/*Уведомление*/
---notif-error:	coral;		/*Уведомление об ошибке*/
---notif-text:	white;		/*Текст уведомления*/
---com-pre:	#171e22;	/*Комментарий предпросмотр фон*/
---com-pre-bd:	black;		/*Комментарий предпросмотр граница*/
+--poll-res:	#ffffff;	/*Полоса результата опроса*/
+--poll-most:	#eee;	/*Большая полоса результа опроса*/
+--poll-most-t:	#eee;	/*Больший процент опроса*/
+--notif-notice:	#fff;	/*Уведомление*/
+--notif-error:	#fff;		/*Уведомление об ошибке*/
+--notif-text:	#fff;		/*Текст уведомления*/
 --com-ign:	#171e22;	/*Комментарий игнорируемый фон*/
 --com-ign-bd:	black;		/*Комментарий игнорируемый фон*/
 --com-ign-t:	#777;		/*Комментарий игнорируемый текст*/
---com-con:	#141b20;	/*Комментарий фон*/
---com-con-bd:	#091015;	/*Комментарий граница*/
+--com-con:	#1b1b1b;	/*Комментарий фон*/
+--com-con-bd:	#000000;	/*Комментарий граница*/
 --com-del:	#17242b;	/*Комментарий удалённый фон*/
 --com-del-bd:	#29363d;	/*Комментарий удалённый граница*/
---com-self:	#1b252b;	/*Комментарий свой фон*/
---com-self-bd:	#091015;	/*Комментарий свой граница*/
---com-new:	#2c3f4b;	/*Комментарий новый фон*/
---com-new-bd:	#527387;	/*Комментарий новый граница*/
---com-cur:	#3c5667;	/*Комментарий текущий фон*/
---com-cur-bd:	#6892ab;	/*Комментарий текущий граница*/
---com-hid:	#17242b;	/*Комментарий скрытый фон*/
---com-hid-bd:	#29363d;	/*Комментарий скрытый граница*/
---toolbar:	#3e6477;	/*Обновлялка*/
---toolbar-c:	#1a9fdb;	/*Обновлялка число комментов*/
+--com-self:	#202020;	/*Комментарий свой фон*/
+--com-self-bd:	#000000;	/*Комментарий свой граница*/
+--com-new:	#363636;	/*Комментарий новый фон*/
+--com-new-bd:	#161616;	/*Комментарий новый граница*/
+--com-cur:	#363636;	/*Комментарий текущий фон*/
+--com-cur-bd:	#606060;	/*Комментарий текущий граница*/
+--com-hid:	#161616;	/*Комментарий скрытый фон*/
+--com-hid-bd:	#363636;	/*Комментарий скрытый граница*/
+--toolbar:	#252525;	/*Обновлялка*/
+--toolbar-c:	#eee;	/*Обновлялка число комментов*/
 --sys-mes:	#4e8a4e;	/*Системное сообщение, при сохранении настроек, например*/
 --sys-mes-t:	white;		/*Системное сообщение текст*/
 --sys-err:	#a65d42;	/*Системная ошибка*/
 --sys-err-t:	white;		/*Системное ошибка текст*/
---horizontal:	#2d3746;	/*Разделитель*/
---night:	#c3ccd5;	/*Текущая ночь*/
+--horizontal:	#464646;	/*Разделитель*/
+--night:	#464646;	/*Текущая ночь*/
 --white:	white;		/*Белый*/
 --black:	black;		/*Чёрный*/
---tumble:	#ee3d96;	/*Тамбл*/
+--tumble:	#eee;	/*Тамбл*/
 }
 .text{max-width: 60em}
 
 
+.comment-content{border:0 !important; padding:.5rem !important}
 
 @media (max-width: 768px){
+body{line-height: 1.5em !important;}
 .information-block{padding:0 !important; background: none !important;}
 .comment-wrapper .comment-wrapper {padding-left:1vw !important}
 .topic-content>img{max-height:200px !important}
@@ -122,5 +128,8 @@
 .topic-header .topic-title {font-size:1.2rem !important}
 .news-birthday-list{padding:0 1rem}
 .block-header{margin: 1rem 0 !important}
+
+/*txt editor*/
+markItUpHeader ul li {margin: 5px 20px 5px 10px !important;}
+
 }
-/*think about https://coolors.co/e2d4b7-9c9583-a1a499-b0bbbf-cadbc8*/
