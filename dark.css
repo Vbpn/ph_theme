@@ -1,25 +1,21 @@
 @import "../css/prettify-dark.css";
-.header-menu a:first-child { width: 145px !important; }
-@media (max-width: 1200px){
-.main-menu-trigger { background-image: var(--logo-mobile) !important; }
-}
 :root {
 --font:			open-sans, sans-serif;
---logo:			url(https://ponyhawks.ru/templates/skin/synio/css/svg/pron.svg);
---logo-mobile:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/pron-mobile.svg);
+--logo:			url(https://ponyhawks.ru/templates/skin/synio/css/svg/ph.svg);
+--logo-mobile:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/ph.svg);
 --header-back:		url(https://ponyhawks.ru/templates/skin/synio/css/images/back_10.png);
 --icons-user:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/user-menu-icons-dark.svg);
---icon-stream:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/stream-pron.svg);
+--icon-stream:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/stream.svg);
 --icons-contacts:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/icons-contact-dark.svg);
 --icons-topic:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/topic-icons-dark.svg);
---icons-toolbar:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-pron.svg);
+--icons-toolbar:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-gs.svg);
 --icons-social:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/social-dark.svg);
---icons-comments:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/comment-icons-pron.svg);
+--icons-comments:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/comment-icons-gs.svg);
 --icons-editor:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/editor-dark.svg);
 --icon-message:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/message-dark.svg);
---toolbar-update:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-update-pron.svg);
+--toolbar-update:	url(https://ponyhawks.ru/templates/skin/synio/css/svg/toolbar-update-gs.svg);
 --talk-icons:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/talk-dark.svg);
---loader:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/loader-pron.svg);
+--loader:		url(https://ponyhawks.ru/templates/skin/synio/css/svg/loader-gs.svg);
 --user:			url(https://ponyhawks.ru/templates/skin/synio/css/svg/user.svg);
 
 --brdr-rad5:	5px;		/*Сглаживание краёв 5*/
@@ -31,7 +27,7 @@
 --text-gray:	#7b848d;	/*Дополнительный цвет текста*/
 --text-time:	#464646;	/*Время в блоке прямого эфира*/
 --text-fav:	#ffffff;	/*Цифра избранноего*/
---href:		#fafafa;	/*Цвет ссылок*/
+--href:		#D19FE4;	/*Цвет ссылок*/
 --href-hover:	#fff;	/*Цвет ссылок при наведении*/
 --href-err:	#727a90;	/*Цвет ссылок на 404*/
 --href-err-h:	#f90;		/*Цвет ссылок на 404 при наведении*/
@@ -40,9 +36,9 @@
 --head-end:	#1b1b1b;	/*Верхняя панель*/
 --headers:	#1b1b1b;	/*Заголовки таблиц и некоторые элементы*/
 --counter:	#fff;	/*Индикатор новых писем*/
---counter-c:	#72f281;	/*Индикатор новых комментариев*/
+--counter-c:	#ED438D;	/*Индикатор новых комментариев*/
 --element:	#191919;	/*Неактивный элемент*/
---el-hover:	#fff;	/*Активный элемент, :hover*/
+--el-hover:	#666;	/*Активный элемент, :hover*/
 --el-active:	#003e80;	/*Активный элемент, :active*/
 --el-red:	#992900;	/*Неактивный элемент предупреждающий*/
 --el-h-red:	#fff;	/*Активный элемент предупреждающий, :hover*/
@@ -73,7 +69,7 @@
 --b-h-shad:	#fff;		/*Тень обычной кнопки активная*/
 --btn-act:	#444;		/*Обычная кнопка нажатая*/
 --btn-act-t:	#8fa7b8;	/*Текст обычной кнопки нажатой*/
---btn-bl:	#eee;	/*Основная кнопка*/
+--btn-bl:	#ccc;	/*Основная кнопка*/
 --btn-bl-hover:	#fff;	/*Основная кнопка активная*/
 --btn-bl-act:	#2b2b2b;	/*Основная кнопка нажатая*/
 --btn-bl-t:	#2f2f2f;		/*Текст основной кнопки*/
@@ -110,10 +106,9 @@
 --night:	#464646;	/*Текущая ночь*/
 --white:	white;		/*Белый*/
 --black:	black;		/*Чёрный*/
---tumble:	#eee;	/*Тамбл*/
+--tumble:	#7b848d;	/*Тамбл*/
 }
 
-body a{text-decoration:underline}
 .comment-content{border:0 !important; padding:.5rem !important}
 .button{text-shadow:none !important;padding: 5px 18px 5px 18px !important;/* margin: 4px 0 4px 0 !important; */}
 .spoiler-title{font-weight:normal !important}
