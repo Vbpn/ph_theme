@@ -1,6 +1,6 @@
 @import "../css/prettify-dark.css";
 .header-menu a:first-child { width: 145px !important; }
-@media (max-width: 768px){
+@media (max-width: 1200px){
 .main-menu-trigger { background-image: var(--logo-mobile) !important; }
 }
 :root {
@@ -49,8 +49,8 @@
 --el-shad:	#999;		/*Неактивный элемент затенённый*/
 --panel:	#191919;	/*Панели*/
 --window:	#252525;	/*Окна*/
---input:	#363636;	/*Фон окон ввода*/
---input-border:	#262626;	/*Границы окон ввода*/
+--input:	#101010;	/*Фон окон ввода*/
+--input-border:	#323232;	/*Границы окон ввода*/
 --input-focus:	#606060;	/*Подсветка полей ввода*/
 --input-text:	#cacaca;	/*Текст полей ввода*/
 --quote:	#363636;	/*Цитата*/
@@ -94,9 +94,9 @@
 --com-del-bd:	#29363d;	/*Комментарий удалённый граница*/
 --com-self:	#202020;	/*Комментарий свой фон*/
 --com-self-bd:	#000000;	/*Комментарий свой граница*/
---com-new:	#161616;	/*Комментарий новый фон*/
---com-new-bd:	#161616;	/*Комментарий новый граница*/
---com-cur:	#363636;	/*Комментарий текущий фон*/
+--com-new:	#101010;	/*Комментарий новый фон*/
+--com-new-bd:	#101010;	/*Комментарий новый граница*/
+--com-cur:	#202020;	/*Комментарий текущий фон*/
 --com-cur-bd:	#606060;	/*Комментарий текущий граница*/
 --com-hid:	#161616;	/*Комментарий скрытый фон*/
 --com-hid-bd:	#363636;	/*Комментарий скрытый граница*/
@@ -115,7 +115,7 @@
 
 body a{text-decoration:underline}
 .comment-content{border:0 !important; padding:.5rem !important}
-.button{text-shadow:none !important;padding: 5px 18px 5px 18px !important; margin: 4px 10px 4px 0 !important;}
+.button{text-shadow:none !important;padding: 5px 18px 5px 18px !important;/* margin: 4px 0 4px 0 !important; */}
 .spoiler-title{font-weight:normal !important}
 
 @media (max-width: 1200px){
