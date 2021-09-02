@@ -1,2 +1,2 @@
 # ph_theme
-#1 : grayscale
+#1 : gs
