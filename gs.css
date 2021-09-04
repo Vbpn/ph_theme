@@ -54,7 +54,7 @@
 --pre:		#434343;	/*Код*/
 --pre-border:	#666;	/*Границы кода*/
 --spoiler:	#252525;	/*Спойлер*/
---spoiler-bd:	#1b1b1b;	/*Границы спойлера*/
+--spoiler-bd:	#444;	/*Границы спойлера*/
 --sp-gray:	#575757;	/*Lite-спойлер*/
 --dice-b:	lightblue;	/*Дайсы*/
 --dice-g:	lightgreen;	/*Дайсы*/
@@ -111,8 +111,9 @@
 
 .comment-content{border:0 !important; border-radius:5px !important; padding:.5rem !important}
 .button{text-shadow:none !important;padding: 5px 18px 5px 18px !important;/* margin: 4px 0 4px 0 !important; */}
-.spoiler-title{font-weight:normal !important}
-.text a {font-weight: 400 !important}
+.spoiler-title{font-weight:normal !important;border-radius:0 !important;}
+.text a {font-weight: 400 !important; text-decoration: underline !important}
+.comment-info li {margin-right:16px !important}
 
 @media (max-width: 1200px){
 body{line-height: 1.5em !important;}
@@ -127,6 +128,8 @@ body{line-height: 1.5em !important;}
 .block-header{margin: 1rem 0 !important}
 
 /*txt editor*/
+.markItUpHeader {padding:4px !important}
+#smilepack-ph-panel-categories{padding:4px !important}
 .markItUpHeader ul li {margin: 5px 20px 5px 10px !important;}
 .markItUpHeader ul li:first-child{margin-left:36px !important}
 #smilepack-ph-panel-categories IMG {margin: 0 25px 15px 0 !important}
