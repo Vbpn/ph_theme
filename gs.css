@@ -78,8 +78,8 @@
 --poll-res:	#ffffff;	/*Полоса результата опроса*/
 --poll-most:	#eee;	/*Большая полоса результа опроса*/
 --poll-most-t:	#eee;	/*Больший процент опроса*/
---notif-notice:	#fff;	/*Уведомление*/
---notif-error:	#fff;		/*Уведомление об ошибке*/
+--notif-notice:	#a1a1a1;	/*Уведомление*/
+--notif-error:	#111;		/*Уведомление об ошибке*/
 --notif-text:	#fff;		/*Текст уведомления*/
 --com-ign:	#252525;	/*Комментарий игнорируемый фон*/
 --com-ign-bd:	#111111;		/*Комментарий игнорируемый фон*/
@@ -92,7 +92,7 @@
 --com-self-bd:	#000000;	/*Комментарий свой граница*/
 --com-new:	#101010;	/*Комментарий новый фон*/
 --com-new-bd:	#101010;	/*Комментарий новый граница*/
---com-cur:	#202020;	/*Комментарий текущий фон*/
+--com-cur:	#03060a;	/*Комментарий текущий фон*/
 --com-cur-bd:	#606060;	/*Комментарий текущий граница*/
 --com-hid:	#161616;	/*Комментарий скрытый фон*/
 --com-hid-bd:	#363636;	/*Комментарий скрытый граница*/
@@ -110,7 +110,8 @@
 }
 
 .comment-content{border:0 !important; border-radius:5px !important; padding:.5rem !important}
-.button{text-shadow:none !important;padding: 5px 18px 5px 18px !important;/* margin: 4px 0 4px 0 !important; */}
+.button{text-shadow:none !important;padding: 5px 18px 5px 18px !important;}
+.full-update-comments.active div {background: url('svg/clear-gs.svg') repeat !important;}
 .spoiler-title{font-weight:normal !important;border-radius:0 !important;}
 .text a {font-weight: 400 !important; text-decoration: underline !important}
 .comment-info li {margin-right:16px !important}
