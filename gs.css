@@ -111,7 +111,7 @@
 
 .comment-content{border:0 !important; border-radius:5px !important; padding:.5rem !important}
 .button{text-shadow:none !important;padding: 5px 18px 5px 18px !important;}
-.full-update-comments.active div {background: url('svg/clear-gs.svg') repeat !important;}
+.full-update-comments.active div {background: url('../css/svg/clear-gs.svg') repeat !important;}
 .spoiler-title{font-weight:normal !important;border-radius:0 !important;}
 .text a {font-weight: 400 !important; text-decoration: underline !important}
 .comment-info li {margin-right:16px !important}
@@ -131,8 +131,8 @@ body{line-height: 1.5em !important;}
 /*txt editor*/
 .markItUpHeader {padding:4px !important}
 #smilepack-ph-panel-categories{padding:4px !important}
-.markItUpHeader ul li {margin: 5px 20px 5px 10px !important;}
-.markItUpHeader ul li:first-child{margin-left:36px !important}
+.markItUpHeader ul li {margin: 5px 18px 5px 10px !important;}
+.markItUpHeader ul li:first-child{margin-left:30px !important}
 #smilepack-ph-panel-categories IMG {margin: 0 25px 15px 0 !important}
 
 }
